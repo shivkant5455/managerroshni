@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: managerroshni
+    env: python
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: python mybot.py
